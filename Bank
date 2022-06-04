@@ -1,0 +1,11 @@
+a = str(input())
+#hello h=0 e=1 l=2 l=3 o=4
+c= a[1:5]
+b = a[0].casefold()
+
+if b == "h" and "ello" not in a:
+    print("$20")
+elif a[0:5].casefold() == "hello":
+    print("$0")
+else:
+    print("$100")
